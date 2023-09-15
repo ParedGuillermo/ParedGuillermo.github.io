@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee & Tech</title>
+    <style>
+        /* Aquí puedes agregar tu propio estilo CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .logo {
+            width: 200px;
+            display: block;
+            margin: 0 auto;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav li a {
+            color: #333;
+            text-decoration: none;
+        }
+        .nav li a:hover {
+            color: #999;
+        }
+        .hero {
+            height: 300px;
+            background-image: url("https://i.imgur.com/9wZyKQl.jpg"); /* Puedes cambiar esta imagen por otra que te guste */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero h1 {
+            color: white;
+            font-size: 48px;
+            text-shadow: 2px 2px 4px black;
+        }
+        .main {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        .card {
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .card h3 {
+            text-align: center;
+        }
+        .card p {
+            text-align: justify;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.imgur.com/6yYxqQX.png" alt="Logo de Coffee & Tech" class="logo"> <!-- Puedes cambiar este logo por otro que te guste -->
+        <ul class="nav">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </div>
+    <div class="hero">
+        <h1>Coffee & Tech</h1>
+    </div>
+    <div class="container">
+        <div class="main">
+            <div class="card">
+                <img src="https://i.imgur.com/8m7LJZg.jpg" alt="Venta de PC"> <!-- Puedes cambiar esta imagen por otra que te guste -->
+                <h3>Venta de PC</h3>
+                <p>Ofrecemos una amplia variedad de PC de escritorio y notebook de las mejores marcas y modelos. Contamos con equipos para todos los gustos y necesidades, desde los más básicos hasta los más avanzados. También puedes personalizar tu PC a tu medida con los componentes que prefieras.</p>
+                <a href="#">Ver más</a>
+            </div>
+            <div class="card">
+                <img src="https://i.imgur.com/5tMk7zE.jpg" alt="Reparación de PC"> <!-- Puedes cambiar esta imagen por otra que te guste -->
+                <h3>Reparación de PC</h3>
+                <p>Si tu PC tiene algún problema, no dudes en traerlo a nuestro taller. Tenemos un equipo de técnicos especializados que se encargarán de diagnosticar y solucionar cualquier falla que tenga tu equipo. Ya sea un problema de hardware o software, nosotros lo arreglamos.</p>
+                <a href="#">Ver más</a>
+            </div>
+            <div class="card">
+                <img src="https://i.imgur.com/9wZyKQl.jpg" alt="Mantenimiento de PC"> <!-- Puedes cambiar esta imagen por otra que te guste -->
+                <h3>Mantenimiento de PC</h3>
+                <p>Para que tu PC funcione siempre al máximo rendimiento, es importante realizar un mantenimiento periódico. Nosotros te ofrecemos un servicio de mantenimiento preventivo y correctivo, que incluye limpieza, actualización, optimización y seguridad de tu equipo.</p>
+                <a href="#">Ver más</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Coffee & Tech © 2023. Todos los derechos reservados.</p>
+        <p>Avenida Armenia 4731, Corrientes Capital, Argentina.</p>
+        <p>Teléfono: (0379) 123-4567</p>
+        <p>Email: coffeeandtech@gmail.com</p>
+    </div>
+</body>
+</html>
